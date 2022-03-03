@@ -1,0 +1,66 @@
+#################	FIRST EXAMPLE - cmdExercise	#################
+//Simple Compilation
+$ DesignPatterns> javac -d .\classes\ .\src\cmdExercise\HelloWorld.java
+
+//Run the program
+$ DesignPatterns> java -classpath .\classes\ cmdExercise.HelloWorld
+
+//Generate a .jar
+$ DesignPatterns\classes> jar cfe HelloWorld.jar cmdExercise.HelloWorld .\cmdExercise\HelloWorld.class
+
+//Run the jar
+$ DesignPatterns\classes> java -jar .\HelloWorld.jar
+
+//Using a third part .jar => In a compilation and execution I have to reference the .jar (commented the code to run in IDEA) !!!!!
+$ DesignPatterns> javac -d .\classes\ -cp ".\jar\commons-lang3-3.12.0.jar" .\src\cmdExercise\UsingExternalJar.java
+$ DesignPatterns> java -cp ".\classes;.\jar\commons-lang3-3.12.0.jar" cmdExercise.UsingExternalJar
+
+//Create a jar and use in my program
+$ DesignPatterns> javac -d .\classes\ .\src\cmdExercise\MathLibrary\MyMathJar.java
+$ DesignPatterns\classes> jar cf ..\jar\MyMathJar.jar .\cmdExercise\MathLibrary\MyMathJar.class
+$ DesignPatterns> javac -d .\classes\ -cp ".\jar\MyMathJar.jar" .\src\cmdExercise\UsingInternalJar.java
+$ DesignPatterns> java -cp ".\classes;.\jar\MyMathJar.jar" cmdExercise.UsingInternalJar
+
+
+//Creating a Unit Test standAlone and running with Junit ("Linux commands")
+// https://www.baeldung.com/junit-run-from-command-line
+$ DesignPatterns$ javac -d target/ -cp target:jar/junit-platform-console-standalone-1.8.2.jar src/cmdExercise/FirstUnitTest.java
+$ DesignPatterns$ java -jar jar/junit-platform-console-standalone-1.8.2.jar -cp target --select-class cmdExercise.FirstUnitTest
+
+
+// jdeps => Java Dependency Analysis ToolAnalyse - dependencies in a .jar
+jdeps .\jar\commons-lang3-3.12.0.jar
+
+
+
+
+
+
+#################	SECOND EXAMPLE - BehavioralPatterns.Observer	#################
+$ DesignPatterns> javac -d .\classes\ .\src\BehavioralPatterns.Observer\*.java
+
+$ DesignPatterns> java -classpath .\classes\ BehavioralPatterns.Observer.MainProgram
+
+
+######################################################################################################
+NEXT:
+1) Implementing the CreationalPatterns.Singleton Pattern - in development......
+
+2) Create a separate jar, and add to my running program like dependency
+3) Adding Threads to the BehavioralPatterns.Observer pattern
+4) Search for UML plugins to generate sequence or comunication diagrams and packages diagrams
+
+Search:
+- java memory leak
+- git rebase
+
+Resources:
+https://medium.com/javarevisited/how-to-generate-sequence-diagrams-in-intellij-e2bb7cec2b0b
+
+//Youtube Interesting
+https://www.youtube.com/channel/UCN4eLczj_MQLcz7NjIwcKEQ/videos
+
+//Threads
+https://www.eginnovations.com/blog/java-threads/
+
+
