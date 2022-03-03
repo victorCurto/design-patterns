@@ -2,7 +2,7 @@ package CreationalPatterns.Singleton;
 
 import java.util.LinkedList;
 
-public class ScabbleTest {
+public class Test_pattern {
 
     public static void main(String [] args){
 

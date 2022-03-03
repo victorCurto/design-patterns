@@ -1,6 +1,5 @@
 **/out
 **/classes
-
 *.iml
 **/target
 **/.settings
