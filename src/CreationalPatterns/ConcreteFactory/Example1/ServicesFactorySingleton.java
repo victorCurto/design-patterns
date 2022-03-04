@@ -1,8 +1,8 @@
-package CreationalPatterns.ConcreteFactory;
+package CreationalPatterns.ConcreteFactory.Example1;
 
-import CreationalPatterns.ConcreteFactory.TypesOfAdapter.IAccountingAdapter;
-import CreationalPatterns.ConcreteFactory.TypesOfAdapter.IIventoryAdapter;
-import CreationalPatterns.ConcreteFactory.TypesOfAdapter.ITaxCalculatorAdapter;
+import CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter.IAccountingAdapter;
+import CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter.IIventoryAdapter;
+import CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter.ITaxCalculatorAdapter;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
@@ -25,7 +25,7 @@ public class ServicesFactorySingleton {
     public static ITaxCalculatorAdapter getTaxCalculatorAdapter() {
         if(taxCalculatorAdapter == null){
             //a reflective or data-driven approach to finding the right class: read it from an external property
-            try (InputStream input = new FileInputStream("src/CreationalPatterns/ConcreteFactory/factory.properties")) {
+            try (InputStream input = new FileInputStream("src/CreationalPatterns/ConcreteFactory/Example1/factory.properties")) {
                 Properties prop = new Properties();
                 // load a properties file
                 prop.load(input);

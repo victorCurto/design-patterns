@@ -1,6 +1,6 @@
-package CreationalPatterns.ConcreteFactory;
+package CreationalPatterns.ConcreteFactory.Example1;
 
-import CreationalPatterns.ConcreteFactory.TypesOfAdapter.ITaxCalculatorAdapter;
+import CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter.ITaxCalculatorAdapter;
 
 public class Test_pattern {
 

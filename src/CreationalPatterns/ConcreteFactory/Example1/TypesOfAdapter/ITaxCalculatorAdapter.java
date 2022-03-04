@@ -1,4 +1,4 @@
-package CreationalPatterns.ConcreteFactory.TypesOfAdapter;
+package CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter;
 
 public interface ITaxCalculatorAdapter {
 
