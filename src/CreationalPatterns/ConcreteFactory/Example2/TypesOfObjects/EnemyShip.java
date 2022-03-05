@@ -1,4 +1,4 @@
-package CreationalPatterns.ConcreteFactory.Example2.AbstractTypes;
+package CreationalPatterns.ConcreteFactory.Example2.TypesOfObjects;
 
 public abstract class EnemyShip {
 

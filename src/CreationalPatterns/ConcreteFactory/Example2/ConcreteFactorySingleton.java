@@ -1,6 +1,6 @@
 package CreationalPatterns.ConcreteFactory.Example2;
 
-import CreationalPatterns.ConcreteFactory.Example2.AbstractTypes.EnemyShip;
+import CreationalPatterns.ConcreteFactory.Example2.TypesOfObjects.EnemyShip;
 import CreationalPatterns.ConcreteFactory.Example2.ConcreteClasses.BigUFOEnemyShip;
 import CreationalPatterns.ConcreteFactory.Example2.ConcreteClasses.RocketEnemyShip;
 import CreationalPatterns.ConcreteFactory.Example2.ConcreteClasses.UFOEnemyShip;

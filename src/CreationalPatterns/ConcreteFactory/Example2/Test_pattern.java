@@ -1,6 +1,6 @@
 package CreationalPatterns.ConcreteFactory.Example2;
 
-import CreationalPatterns.ConcreteFactory.Example2.AbstractTypes.EnemyShip;
+import CreationalPatterns.ConcreteFactory.Example2.TypesOfObjects.EnemyShip;
 import java.util.Scanner;
 
 public class Test_pattern {

@@ -1,4 +1,4 @@
-package CreationalPatterns.ConcreteFactory.Example1.ConcreteAdapters;
+package CreationalPatterns.ConcreteFactory.Example1.ConcreteClassesAdapters;
 
 import CreationalPatterns.ConcreteFactory.Example1.TypesOfAdapter.ITaxCalculatorAdapter;
 

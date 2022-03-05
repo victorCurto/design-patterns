@@ -1,6 +1,6 @@
 package CreationalPatterns.ConcreteFactory.Example2.ConcreteClasses;
 
-import CreationalPatterns.ConcreteFactory.Example2.AbstractTypes.EnemyShip;
+import CreationalPatterns.ConcreteFactory.Example2.TypesOfObjects.EnemyShip;
 
 public class RocketEnemyShip extends EnemyShip {
 
