@@ -1,7 +1,7 @@
-package CreationalPatterns.FactoryMethod.ComponentB;
+package CreationalPatterns.FactoryMethod.Example1.ComponentB;
 
-import CreationalPatterns.FactoryMethod.ComponentApp.AbstractShapeApplication;
-import CreationalPatterns.FactoryMethod.ComponentApp.IShape;
+import CreationalPatterns.FactoryMethod.Example1.ComponentApp.AbstractShapeApplication;
+import CreationalPatterns.FactoryMethod.Example1.ComponentApp.IShape;
 
 public class ShapeApplicationImpl extends AbstractShapeApplication {
 

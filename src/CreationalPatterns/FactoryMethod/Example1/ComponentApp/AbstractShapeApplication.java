@@ -1,6 +1,4 @@
-package CreationalPatterns.FactoryMethod.ComponentApp;
-
-import CreationalPatterns.FactoryMethod.ComponentB.ShapeApplicationImpl;
+package CreationalPatterns.FactoryMethod.Example1.ComponentApp;
 
 public abstract class AbstractShapeApplication {
 
