@@ -1,7 +1,7 @@
 package CreationalPatterns.FactoryMethod.Example2.factory;
 
-import CreationalPatterns.FactoryMethod.Example2.buttons.Button;
-import CreationalPatterns.FactoryMethod.Example2.buttons.WindowsButton;
+import CreationalPatterns.FactoryMethod.Example2.products.Button;
+import CreationalPatterns.FactoryMethod.Example2.products.WindowsButton;
 
 /**
  * Windows Dialog will produce Windows buttons.

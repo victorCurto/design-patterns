@@ -1,6 +1,6 @@
 package CreationalPatterns.FactoryMethod.Example2.factory;
 
-import CreationalPatterns.FactoryMethod.Example2.buttons.Button;
+import CreationalPatterns.FactoryMethod.Example2.products.Button;
 
 /**
  * Base factory class.

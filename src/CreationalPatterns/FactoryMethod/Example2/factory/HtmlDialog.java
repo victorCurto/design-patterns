@@ -1,7 +1,7 @@
 package CreationalPatterns.FactoryMethod.Example2.factory;
 
-import CreationalPatterns.FactoryMethod.Example2.buttons.Button;
-import CreationalPatterns.FactoryMethod.Example2.buttons.HtmlButton;
+import CreationalPatterns.FactoryMethod.Example2.products.Button;
+import CreationalPatterns.FactoryMethod.Example2.products.HtmlButton;
 
 /**
  * HTML Dialog will produce HTML buttons.
