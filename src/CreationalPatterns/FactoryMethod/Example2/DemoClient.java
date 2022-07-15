@@ -7,7 +7,7 @@ import CreationalPatterns.FactoryMethod.Example2.factory.WindowsDialog;
 /**
  * Client code. Everything comes together here.
  */
-public class DemoMain {
+public class DemoClient {
     private static Dialog dialog;
 
     public static void main(String[] args) {

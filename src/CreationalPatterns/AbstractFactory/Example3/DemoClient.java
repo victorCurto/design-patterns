@@ -8,7 +8,7 @@ import CreationalPatterns.AbstractFactory.Example3.app.Application;
 /**
  * Demo class. Everything comes together here.
  */
-public class DemoMain {
+public class DemoClient {
     /**
      * Application picks the factory type and creates it in run time (usually at
      * initialization stage), depending on the configuration or environment

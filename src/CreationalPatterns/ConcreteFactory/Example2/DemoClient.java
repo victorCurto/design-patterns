@@ -4,7 +4,7 @@ import CreationalPatterns.ConcreteFactory.Example2.factories.ConcreteFactorySing
 import CreationalPatterns.ConcreteFactory.Example2.factories.EnemyShip;
 import java.util.Scanner;
 
-public class DemoMain {
+public class DemoClient {
 
     public static void main(String[] args){
 

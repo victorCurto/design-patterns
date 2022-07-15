@@ -4,7 +4,7 @@ import CreationalPatterns.FactoryMethod.Example1.Creator.AbstractShapeApplicatio
 import CreationalPatterns.FactoryMethod.Example1.Creator.ShapeApplicationCircle;
 import CreationalPatterns.FactoryMethod.Example1.Creator.ShapeApplicationSquare;
 
-public class DemoMain {
+public class DemoClient {
 
     public static void main(String [] args){
         AbstractShapeApplication app = new ShapeApplicationCircle();

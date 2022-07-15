@@ -5,7 +5,7 @@ import CreationalPatterns.AbstractFactory.Example2.factories.RectangularShapeFac
 import CreationalPatterns.AbstractFactory.Example2.factories.ShapeFactorySingleton;
 import CreationalPatterns.AbstractFactory.Example2.products.IShape;
 
-public class DemoMain {
+public class DemoClient {
 
     public static void main(String [] args){
 
