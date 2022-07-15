@@ -1,4 +1,4 @@
-package CreationalPatterns.Singleton;
+package CreationalPatterns.Singleton.example1;
 
 public class Singleton_Eager_Initialization {
 
