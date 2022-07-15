@@ -1,4 +1,4 @@
-package CreationalPatterns.Prototype;
+package CreationalPatterns.prototype.example1;
 
 public class Circle implements IShape {
 
