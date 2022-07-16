@@ -1,0 +1,19 @@
+Source:
+https://refactoring.guru/design-patterns/singleton/java/example#example-0
+
+Usage examples:
+A lot of developers consider the Singleton pattern an antipattern. That’s why its usage is on the decline in Java code.
+
+Identification:
+Singleton can be recognized by a static creation method, which returns the same cached object.
+
+
+Naive Singleton (single-threaded)
+It’s pretty easy to implement a sloppy Singleton. You just need to hide the constructor and implement a static creation method.
+
+Naive Singleton (multithreaded)
+The same class behaves incorrectly in a multithreaded environment.
+Multiple threads can call the creation method simultaneously and get several instances of Singleton class.
+
+Thread-safe Singleton with lazy loading
+To fix the problem, you have to synchronize threads during first creation of the Singleton object.
