@@ -1,4 +1,4 @@
-package StructuralPatterns.Proxy.Example2_FailoverProxy;
+package structuralPatterns.Proxy.Example2_FailoverProxy;
 
 public class Register {
     IAccountingAdapter accounting;

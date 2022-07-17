@@ -1,4 +1,4 @@
-package StructuralPatterns.Proxy.Example2_FailoverProxy;
+package structuralPatterns.Proxy.Example2_FailoverProxy;
 
 public interface IAccountingAdapter {
     void postReceivable(String ReceivableEntry);

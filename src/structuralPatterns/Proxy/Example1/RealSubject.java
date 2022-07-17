@@ -1,4 +1,4 @@
-package StructuralPatterns.Proxy.Example1;
+package structuralPatterns.Proxy.Example1;
 
 public class RealSubject implements ISubject{
 
