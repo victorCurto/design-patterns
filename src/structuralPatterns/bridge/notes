@@ -1,0 +1,26 @@
+source:
+https://refactoring.guru/design-patterns/bridge/java/example
+
+Bridge is a structural design pattern that divides business logic or huge class into separate class hierarchies that can be developed independently.
+
+One of these hierarchies (often called the Abstraction) will get a reference to an object of the second hierarchy (Implementation).
+The abstraction will be able to delegate some (sometimes, most) of its calls to the implementations object.
+Since all implementations will have a common interface, they’d be interchangeable inside the abstraction.
+
+Complexity: hard
+
+Popularity: minor
+
+Usage examples:
+The Bridge pattern is especially useful when dealing with cross-platform apps, supporting multiple types of database servers or working with several API providers of a certain kind (for example, cloud platforms, social networks, etc.)
+
+Identification:
+Bridge can be recognized by a clear distinction between some controlling entity and several different platforms that it relies on.
+
+Code example: Bridge between devices and remote controls
+This example shows separation between the classes of remotes and devices that they control.
+
+Remotes act as abstractions, and devices are their implementations.
+Thanks to the common interfaces, the same remotes can work with different devices and vice versa.
+
+The Bridge pattern allows changing or even creating new classes without touching the code of the opposite hierarchy.

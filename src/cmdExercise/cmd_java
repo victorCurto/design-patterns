@@ -42,6 +42,7 @@ $ DesignPatterns> javac -d .\classes\ .\src\BehavioralPatterns.Observer\*.java
 $ DesignPatterns> java -classpath .\classes\ BehavioralPatterns.Observer.MainProgram
 
 
+
 ######################################################################################################
 NEXT:
 1) Implementing the CreationalPatterns.Singleton Pattern - in development......
