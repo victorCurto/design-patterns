@@ -1,6 +1,6 @@
-package structuralPatterns.composite;
+package structuralPatterns.composite.Example1;
 
-import structuralPatterns.composite.editor.ImageEditor;
+import structuralPatterns.composite.editor.ClientImageEditor;
 import structuralPatterns.composite.shapes.Circle;
 import structuralPatterns.composite.shapes.CompoundShape;
 import structuralPatterns.composite.shapes.Dot;
@@ -8,9 +8,9 @@ import structuralPatterns.composite.shapes.Rectangle;
 
 import java.awt.*;
 
-public class DemoClient {
+public class Demo {
     public static void main(String[] args) {
-        ImageEditor editor = new ImageEditor();
+        ClientImageEditor editor = new ClientImageEditor();
 
         editor.loadShapes(
                 new Circle(10, 10, 10, Color.BLUE),

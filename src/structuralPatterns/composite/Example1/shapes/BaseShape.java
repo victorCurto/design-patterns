@@ -1,6 +1,7 @@
-package structuralPatterns.composite.shapes;
+package structuralPatterns.composite.Example1.shapes;
 
 import java.awt.*;
+import java.awt.Shape;
 
 abstract class BaseShape implements Shape {
     public int x;

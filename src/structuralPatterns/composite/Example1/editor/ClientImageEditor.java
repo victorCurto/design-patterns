@@ -1,4 +1,4 @@
-package structuralPatterns.composite.editor;
+package structuralPatterns.composite.Example1.editor;
 
 import structuralPatterns.composite.shapes.CompoundShape;
 import structuralPatterns.composite.shapes.Shape;
@@ -9,11 +9,11 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class ImageEditor {
+public class ClientImageEditor {
     private EditorCanvas canvas;
     private CompoundShape allShapes = new CompoundShape();
 
-    public ImageEditor() {
+    public ClientImageEditor() {
         canvas = new EditorCanvas();
     }
 
