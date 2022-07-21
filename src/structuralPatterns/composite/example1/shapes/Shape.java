@@ -1,4 +1,4 @@
-package structuralPatterns.composite.Example1.shapes;
+package structuralPatterns.composite.example1.shapes;
 
 import java.awt.*;
 

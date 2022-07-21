@@ -1,10 +1,10 @@
-package structuralPatterns.composite.Example1;
+package structuralPatterns.composite.example1;
 
-import structuralPatterns.composite.editor.ClientImageEditor;
-import structuralPatterns.composite.shapes.Circle;
-import structuralPatterns.composite.shapes.CompoundShape;
-import structuralPatterns.composite.shapes.Dot;
-import structuralPatterns.composite.shapes.Rectangle;
+import structuralPatterns.composite.example1.editor.ClientImageEditor;
+import structuralPatterns.composite.example1.shapes.Circle;
+import structuralPatterns.composite.example1.shapes.Rectangle;
+import structuralPatterns.composite.example1.shapes.CompoundShape;
+import structuralPatterns.composite.example1.shapes.Dot;
 
 import java.awt.*;
 
