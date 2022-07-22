@@ -1,0 +1,25 @@
+source:
+https://refactoring.guru/design-patterns/facade/java/example
+
+Facade is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework.
+
+While Facade decreases the overall complexity of the application, it also helps to move unwanted dependencies to one place.
+
+Usage of the pattern in Java
+Complexity: easy
+Popularity: medium
+
+Usage examples:
+The Facade pattern is commonly used in apps written in Java. It’s especially handy when working with complex libraries and APIs.
+
+Here are some Facade examples in core Java libs:
+-> javax.faces.context.FacesContext uses LifeCycle, ViewHandler, NavigationHandler classes under the hood, but most clients aren’t aware of that.
+-> javax.faces.context.ExternalContext uses ServletContext, HttpSession, HttpServletRequest, HttpServletResponse and others inside.
+
+Identification:
+Facade can be recognized in a class that has a simple interface, but delegates most of the work to other classes.
+Usually, facades manage the full life cycle of objects they use.
+
+Code example: Simple interface for a complex video conversion library
+In this example, the Facade simplifies communication with a complex video conversion framework.
+The Facade provides a single class with a single method that handles all the complexity of configuring the right classes of the framework and retrieving the result in a correct format.
