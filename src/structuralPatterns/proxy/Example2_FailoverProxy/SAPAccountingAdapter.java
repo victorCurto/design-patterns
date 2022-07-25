@@ -1,4 +1,4 @@
-package structuralPatterns.Proxy.Example2_FailoverProxy;
+package structuralPatterns.proxy.Example2_FailoverProxy;
 
 //Ilustrate Externall service unavailable
 public class SAPAccountingAdapter implements IAccountingAdapter {

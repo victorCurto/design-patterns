@@ -1,4 +1,4 @@
-package structuralPatterns.Proxy.Example1;
+package structuralPatterns.proxy.Example1;
 
 public class Test_pattern {
     public static void main(String [] args){

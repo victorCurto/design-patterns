@@ -1,4 +1,4 @@
-package structuralPatterns.Proxy.Example2_FailoverProxy;
+package structuralPatterns.proxy.Example2_FailoverProxy;
 
 
 public class Test_pattern {

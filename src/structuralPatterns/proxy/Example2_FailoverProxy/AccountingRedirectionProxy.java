@@ -1,4 +1,4 @@
-package structuralPatterns.Proxy.Example2_FailoverProxy;
+package structuralPatterns.proxy.Example2_FailoverProxy;
 
 //Applying UML and Patterns) chapter 36 - More Object Design with GoF patterns - Proxy Pattern (pag 602)
 public class AccountingRedirectionProxy implements IAccountingAdapter{

@@ -1,0 +1,31 @@
+Source:
+https://refactoring.guru/design-patterns/proxy/java/example
+
+Proxy is a structural design pattern that provides an object that acts as a substitute for a real service object used by a client.
+A proxy receives client requests, does some work (access control, caching, etc.) and then passes the request to a service object.
+
+The proxy object has the same interface as a service, which makes it interchangeable with a real object when passed to a client.
+
+Usage of the pattern in Java
+Complexity: medium
+Popularity: low
+
+Usage examples:
+While the Proxy pattern isn’t a frequent guest in most Java applications, it’s still very handy in some special cases.
+It’s irreplaceable when you want to add some additional behaviors to an object of some existing class without changing the client code.
+
+Some examples of proxies in standard Java libraries:
+-> java.lang.reflect.Proxy
+-> java.rmi.*
+-> javax.ejb.EJB (https://stackoverflow.com/questions/25514361/when-using-ejb-does-each-managed-bean-get-its-own-ejb-instances)
+-> javax.inject.Inject (https://stackoverflow.com/questions/29651008/field-getobj-returns-all-nulls-on-injected-cdi-managed-beans-while-manually-i/29672591#29672591)
+-> javax.persistence.PersistenceContext
+
+Identification:
+Proxies delegate all of the real work to some other object.
+Each proxy method should, in the end, refer to a service object unless the proxy is a subclass of a service.
+
+
+Code example: Caching proxy
+In this example, the Proxy pattern helps to implement the lazy initialization and caching to an inefficient 3rd-party YouTube integration library.
+Proxy is invaluable when you have to add some additional behaviors to a class which code you can’t change.
