@@ -15,6 +15,9 @@ $ DesignPatterns\classes> java -jar .\HelloWorld.jar
 $ DesignPatterns> javac -d .\classes\ -cp ".\jar\commons-lang3-3.12.0.jar" .\src\cmdExercise\UsingExternalJar.java
 $ DesignPatterns> java -cp ".\classes;.\jar\commons-lang3-3.12.0.jar" cmdExercise.UsingExternalJar
 
+
+
+//WORK IN PROGRESS ########################################################################################
 //Create a jar and use in my program
 $ DesignPatterns> javac -d .\classes\ .\src\cmdExercise\MathLibrary\MyMathJar.java
 $ DesignPatterns\classes> jar cf ..\jar\MyMathJar.jar .\cmdExercise\MathLibrary\MyMathJar.class
@@ -36,10 +39,10 @@ jdeps .\jar\commons-lang3-3.12.0.jar
 
 
 
-#################	SECOND EXAMPLE - BehavioralPatterns.Observer	#################
-$ DesignPatterns> javac -d .\classes\ .\src\BehavioralPatterns.Observer\*.java
+#################	SECOND EXAMPLE - behavioralPatterns.Observer	#################
+$ DesignPatterns> javac -d .\classes\ .\src\behavioralPatterns.Observer\*.java
 
-$ DesignPatterns> java -classpath .\classes\ BehavioralPatterns.Observer.MainProgram
+$ DesignPatterns> java -classpath .\classes\ behavioralPatterns.Observer.MainProgram
 
 
 
@@ -48,7 +51,7 @@ NEXT:
 1) Implementing the CreationalPatterns.Singleton Pattern - in development......
 
 2) Create a separate jar, and add to my running program like dependency
-3) Adding Threads to the BehavioralPatterns.Observer pattern
+3) Adding Threads to the behavioralPatterns.Observer pattern
 4) Search for UML plugins to generate sequence or comunication diagrams and packages diagrams
 
 Search:
