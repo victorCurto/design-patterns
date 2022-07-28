@@ -1,0 +1,21 @@
+Source:
+https://refactoring.guru/design-patterns/iterator/java/example#example-0--spammer-SocialSpammer-java
+
+Iterator is a behavioral design pattern that allows sequential traversal through a complex data structure without exposing its internal details.
+Thanks to the Iterator, clients can go over elements of different collections in a similar fashion using a single iterator interface.
+
+Complexity: medium
+Popularity: High
+
+Usage examples: The pattern is very common in Java code.
+Many frameworks and libraries use it to provide a standard way for traversing their collections.
+Here are some examples from core Java libraries:
+-> All implementations of java.util.Iterator (also java.util.Scanner).
+-> All implementations of java.util.Enumeration.
+
+Identification:
+Iterator is easy to recognize by the navigation methods (such as next, previous and others).
+Client code that uses iterators might not have direct access to the collection being traversed.
+
+Code example: Iterating over social network profiles
+In this example, the Iterator pattern is used to go over social profiles of a remote social network collection without exposing any of the communication details to the client code.
