@@ -1,0 +1,21 @@
+Source:
+https://refactoring.guru/design-patterns/memento/java/example#example-0--commands-MoveCommand-java
+
+Memento is a behavioral design pattern that allows making snapshots of an object’s state and restoring it in future.
+The Memento doesn’t compromise the internal structure of the object it works with, as well as data kept inside the snapshots.
+
+Usage of the pattern in Java
+Complexity: high
+Popularity: low
+
+Usage examples: The Memento’s principle can be achieved using serialization, which is quite common in Java. While it’s not the only and the most efficient way to make snapshots of an object’s state, it still allows storing state backups while protecting the originator’s structure from other objects.
+
+Here are some examples of the pattern in core Java libraries:
+-> All java.io.Serializable implementations can simulate the Memento.
+-> All javax.faces.component.StateHolder implementations.
+
+Code example: Shape editor and complex undo/redo
+This graphical editor allows changing the color and position of the shapes on the screen. Any modification can be undone and repeated, though.
+The “undo” is based on the collaboration between the Memento and Command patterns. The editor tracks a history of performed commands. Before executing any command, it makes a backup and connects it to the command object. After the execution, it pushes the executed command into history.
+When a user requests the undo, the editor fetches a recent command from the history and restores the state from the backup kept inside that command. If the user requests another undo, the editor takes a following command from the history and so on.
+Reverted commands are kept in history until the user makes some modifications to the shapes on the screen. This is crucial for redoing undone commands.
