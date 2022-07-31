@@ -1,4 +1,4 @@
-package behavioralPatterns.Observer;
+package behavioralPatterns.observer.example1;
 
 public class UIObserver implements Observer {
 

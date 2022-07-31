@@ -1,4 +1,4 @@
-package behavioralPatterns.Observer;
+package behavioralPatterns.observer.example1;
 
 public class MainProgram {
     public static void main(String[] args){
